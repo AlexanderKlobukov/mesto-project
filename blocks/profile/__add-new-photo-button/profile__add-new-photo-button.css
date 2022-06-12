@@ -1,0 +1,24 @@
+.profile__add-new-photo-button {
+    margin: 0;
+    padding: 0;
+    background: transparent url(../../../images/add-new-photo-button.svg) center no-repeat;
+    background-size: contain;
+    border: none;
+    border-radius: 2px;
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .profile__add-new-photo-button:hover {
+    opacity: 0.6;
+  }
+  
+  @media screen and (max-width: 838px) {
+    .profile__add-new-photo-button {
+      background: url(../../../images/add-new-photo-button-mobile.svg) center no-repeat;
+      width: 282px;
+    }
+  }
