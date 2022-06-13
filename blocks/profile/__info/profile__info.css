@@ -10,12 +10,13 @@
   @media screen and (max-width: 840px) {
     .profile__info {
       margin-bottom: 36px;
+      max-width: 282px;
     }
   }
   
   @media screen and (max-width: 480px) {
     .profile__info {
       grid-template-columns: 1fr 18px;
-      justify-items: center;
+      max-width: 282px;
     }
   }
