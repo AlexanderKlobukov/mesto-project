@@ -1,6 +1,6 @@
 .element__like-button {
     display: block;
-    margin: 0 0 3px 0;
+    margin: 0;
     padding: 0;
     background: transparent url(../../../images/like-btn.svg);
     background-size: contain;
